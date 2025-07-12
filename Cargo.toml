@@ -1,0 +1,10 @@
+[package]
+name = "ejkmer-dispatcher"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.41", features = ["derive"] }
+ej-config = "0.3.0"
+ej-dispatcher-sdk = "0.3.4"
+tokio = { version = "1.46.1", features = ["macros", "rt-multi-thread"] }
